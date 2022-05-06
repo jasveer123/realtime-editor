@@ -1,0 +1,116 @@
+body{
+    color: #fff;
+}
+
+.card{
+    background: linear-gradient(90deg, #1c1e29 0%, rgb(44, 44, 65) 35%, #c3073f 100%);;
+}
+
+.logincontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.card{
+    margin-top: 200px;
+    width: 460px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.loginlogo{
+    height: 150px;
+    margin-left: 60px;
+}
+
+.cardpoints{
+    margin-left: 80px;
+}
+.points{
+    margin-top: 20px;
+    width: 20px;
+}
+
+.joinbtn{
+    margin-top: 20px;
+
+}
+#text1{
+    width: 330px;
+    height: 30px;
+    outline: none;
+    border-radius: 30px;
+    background-color: #e0e5f1;
+    border: none;
+}
+#text2{
+    width: 330px;
+    height: 30px;
+    outline: none;
+    border-radius: 30px;
+    background-color: #e0e5f1;
+    border: none;
+}
+
+.joinbtn{
+    background-color: #c3073f;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    width: 90px;
+    height: 35px;
+
+}
+#spantext{
+    margin-left: 8px;
+
+}
+
+input[type = text]{
+    color: black;
+    font-size: medium;
+    font-family: Raleway;
+    font-weight: 500;
+}
+.joinbtn{
+    font-size:medium;
+}
+.joinbtn:hover{
+    background-color:#e0e5f1;
+    transition: all 0.2s;
+    color: #1c1e29;
+}
+.jointext{
+    font-size: medium;
+}
+
+
+.roombtn{
+    background-color: #c3073f;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    width: 100px;
+    height: 35px;
+    font-size:medium;
+
+}
+.roombtn:hover{
+    color: #1c1e29;
+    background-color:#e0e5f1;
+    transition: all 0.2s;
+}
+.spanbtn{
+    margin-left: 20px;
+}
+
+#reg3{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+#reg3:hover{
+    color: #1c1e29 ;
+}

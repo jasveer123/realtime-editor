@@ -1,0 +1,127 @@
+
+body{
+    background: #1c1e29;
+    font-family: Raleway , sans-serif;
+    margin:auto;
+}
+
+.Navoptions{
+      color: #ffff;
+      margin: 30px;
+      font-size: medium;
+      font-weight: 500;
+      transition: all 0.2s;
+}
+
+.navfont.active{
+   font-weight: 900;
+}
+
+.Navoptions :hover{
+    color: rgb(167, 229, 240);
+}
+
+
+
+.navfont{
+    text-decoration: none;
+    color: #ffff;
+    font-family: Raleway , sans-serif;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height: 100px;
+    margin-left: 200px;
+    margin-right: 230px;
+}
+
+#logoimg{
+    height: 200px;
+    margin-top: 50px;
+   size: 50px;
+}
+
+.logo{
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.html{
+    margin-top: 40px;
+}
+
+.backimg{
+
+    background-repeat:no-repeat;
+    height: 945px;
+    background-position: right;
+}
+
+.list{
+   list-style-type: none;
+   color: #ffff;
+   font-size: 60px;
+   font-weight:normal;
+   margin-bottom: auto;
+   margin-top: auto;
+   
+}
+.mainarea{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 200px;
+    margin-right: 230px;
+    margin-top: 230px;
+}
+
+.empty{
+    height: 200px;
+}
+
+.left{
+    margin-right: auto;
+}
+
+.any{
+    color: #ffff;
+    font-weight: lighter;
+
+}
+.btn1{
+ 
+   background-color: #c3073f;
+   color: #ffff;
+   border: none;
+   border-radius: 40px;
+   width: 130px;
+   height: 45px;
+
+}
+.btn2{
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    border-radius: 40px;
+    width: 130px;
+    height: 45px;
+ 
+}
+.btn{
+    margin-top: 50px;
+}
+#reg{
+  font-size: large;
+}
+
+#reg2{
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+
+
