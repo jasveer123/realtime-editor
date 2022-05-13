@@ -1,101 +1,96 @@
-body{
- font-family: Raleway, sans-serif;
+body {
+  font-family: Raleway, sans-serif;
 }
 
-.divwrapper2{
-    display: grid;
-    grid-template-columns: 230px 1fr;
-    grid-template-rows: 947px;
-
-
+.divwrapper2 {
+  display: grid;
+  grid-template-columns: 230px 1fr 0px;
+  grid-template-rows: auto;
 }
 
-
-.right-editor{
-    background-color: rgb(65, 80, 95);
-    
+.right-editor {
+  background-color: rgb(65, 80, 95);
+  width: 100%;
+  height: 100%;
 }
 
-.aside{
-    display: flex;
-    flex-direction: column;
+.aside {
+  display: flex;
+  flex-direction: column;
 }
-.asideinner{
-    margin-left: 25px;
+.asideinner {
+  margin-left: 25px;
 }
-.div1{
-    flex: 0.95;
-}
-
-
-.btn-editor{
-    border: none;
-    border-radius: 10px;
-    margin-left: 20px;
-    border-radius: 40px;
-    width: 130px;
-    height: 40px;
-    font-size: 15px;
-    font-weight: 500
- 
+.div1 {
+  flex: 0.95;
 }
 
-#leave-btn{
-    background-color: #c3073f ;
-    
+.btn-editor {
+  border: none;
+  border-radius: 10px;
+  margin-left: 20px;
+  border-radius: 40px;
+  width: 130px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 500;
 }
 
-#leave-btn:hover{
-
-    background-color: white;
-    transition: all 0.3s;
-  
-}
-#copy-btn{
-    background-color: rgb(82, 163, 82);
+#leave-btn {
+  background-color: #c3073f;
 }
 
-#copy-btn:hover{
-    background-color: white ;
-    transition: all 0.3s;
+#leave-btn:hover {
+  background-color: white;
+  transition: all 0.3s;
+}
+#copy-btn {
+  background-color: rgb(82, 163, 82);
 }
 
-.logo-div{
-    height: 150px;
-   
+#copy-btn:hover {
+  background-color: white;
+  transition: all 0.3s;
 }
-.logo-editor{
-    height: 230px;
-    margin-left: -13px;
-    margin-top: -40px;
-}
-.conn{
-    margin-left: 15px;
-    padding-bottom: 10px;
-    font-size: large;
-    color: rgb(82, 163, 82);
 
+.logo-div {
+  height: 150px;
 }
-.Avatar{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    column-gap: 10px;
+.logo-editor {
+  height: 230px;
+  margin-left: -13px;
+  margin-top: -40px;
+}
+.conn {
+  margin-left: 15px;
+  padding-bottom: 10px;
+  font-size: large;
+  color: rgb(82, 163, 82);
+}
+.Avatar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  column-gap: 10px;
 }
 
 .CodeMirror {
-    min-height: calc(100vh - 20px);
-    font-size: 20px;
-    line-height: 1.6;
-    padding-top: 20px;
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
 }
 
- 
+#messages {
+  color: #1c1e29;
+}
 
+#messages[style] {
+  background-color: #f6f4f8 !important;
+}
 
-
-
-
-
+.right-editor div button[style] {
+  background-color: rgb(82, 163, 82) !important;
+}

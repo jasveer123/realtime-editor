@@ -1,7 +1,6 @@
 import React from 'react'
 import './Nav.css'
 import { Link } from "react-router-dom"
-
 function Mainarea() {
     return (
         <>
@@ -26,8 +25,10 @@ function Mainarea() {
                     </div>
                 </section>
                 <section className='right'>
-                    <div>
-                    </div>
+                 <div>
+                 </div>
+                 
+                 
                 </section>
             </div>
         </>

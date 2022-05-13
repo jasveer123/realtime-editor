@@ -1,0 +1,88 @@
+#you {
+  margin: 12px;
+  margin-left: 30px;
+  position: relative;
+  width: fit-content;
+  max-width: 250px;
+  min-width: 60px;
+  word-wrap: break-word;
+  background-color: #56d384;
+  color: black;
+  border-radius: 15px;
+  margin-left: auto;
+}
+
+#you:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -10px;
+  top: 0px;
+  bottom: auto;
+  border: 22px solid;
+  border-color: #56d384 transparent transparent transparent;
+}
+
+#you .talktext {
+  padding: 10px 15px 10px 10px;
+  text-align: left;
+}
+#you .talktext p {
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+#you {
+  word-wrap: break-word;
+  font-size: 100;
+}
+
+#other {
+  margin: 12px;
+  margin-left: 30px;
+  position: relative;
+  width: fit-content;
+  max-width: 250px;
+  min-width: 60px;
+  word-wrap: break-word;
+  background-color: #95bea4;
+  color: black;
+  border-radius: 15px;
+}
+
+#other:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -10px;
+  right: auto;
+  top: 0px;
+  bottom: auto;
+  border: 22px solid;
+  border-color: #95bea4 transparent transparent transparent;
+}
+#other .talktext {
+  padding: 10px 15px 10px 20px;
+  text-align: left;
+}
+#other .talktext p {
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+#other {
+  word-wrap: break-word;
+  font-size: 100;
+}
+
+#other {
+  font-size: medium;
+}
+#you {
+  font-size: medium;
+}
