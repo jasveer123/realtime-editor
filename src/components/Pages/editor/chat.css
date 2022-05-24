@@ -42,7 +42,6 @@
 
 #other {
   margin: 12px;
-  margin-left: 30px;
   position: relative;
   width: fit-content;
   max-width: 250px;
@@ -85,4 +84,40 @@
 }
 #you {
   font-size: medium;
+}
+
+#wrapperyou {
+  display: flex;
+}
+
+#wrapperother {
+  display: flex;
+}
+
+#youdiv {
+  margin-top: 10px;
+}
+
+.heading {
+  height: 30px;
+  font-family: Raleway, sans-serif;
+  padding-left: 15px;
+  padding-bottom: 9px;
+  font-size: larger;
+  font-weight: 500;
+  background-color: #3d3f4e;
+}
+
+.bs {
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+#otherdiv {
+  margin-top: 10px;
+  align-items: flex-start;
+}
+
+#otherdiv:nth-child(2) {
+  order: -1;
 }
