@@ -2,7 +2,6 @@ import React from 'react'
 import './chat.css'
 import Avatar from 'react-avatar'
 import { BsChatDots } from 'react-icons/bs'
-import ScrollableFeed from 'react-scrollable-feed'
 
 function Chat(props) {
   return (
